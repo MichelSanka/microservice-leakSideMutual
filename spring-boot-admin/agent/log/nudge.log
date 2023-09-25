@@ -1,0 +1,8 @@
+2023-08-25T14:30Z SEVERE main | config app_id = c3869bc4-ce0d-4012-afbd-db6ff755cd7d (mandatory)
+2023-08-25T14:30Z SEVERE main | config server_url = [http://localhost:8081] (default = [])
+2023-08-25T14:30Z SEVERE main | config upload_config = true (default = false)
+2023-08-25T14:30Z SEVERE main | config log_level = SEVERE (default = INFO)
+2023-08-25T14:30Z SEVERE main | config capture_params = true (default = false)
+2023-08-25T14:30Z SEVERE main | config capture_headers = true (default = false)
+2023-08-25T14:30Z SEVERE main | config activate_rum = true (default = false)
+2023-08-25T14:30Z SEVERE main | config log_servlet_contextlistener = true (default = false)

@@ -4,3 +4,7 @@ __ENV.js
 
 # Ignore the H2 databases
 *.mv.db
+_npx/*
+_cacache/*
+_update-notifier-last-checked
+_logs

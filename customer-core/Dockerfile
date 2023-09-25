@@ -4,11 +4,13 @@ COPY .mvn .mvn
 COPY mvnw .
 COPY pom.xml .
 
-RUN ./mvnw -B dependency:go-offline                          
+#RUN ./mvnw -B dependency:go-offline
+RUN ./mvn -B dependency:go-offline
 
 COPY src src
 
-RUN ./mvnw -B package                                        
+#RUN ./mvnw -B package
+RUN ./mvn -B package
 
 FROM openjdk:17-slim-buster
 
